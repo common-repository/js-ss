@@ -1,0 +1,38 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .responsive_grid{
+    position: relative;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.responsive_grid li{
+    display: inline-block;
+	text-align: center;
+ 	vertical-align: top;
+}
+
+#jss_pageloader{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    background: white;
+    z-index: 999;
+}
+.gifdiv{
+    width: 100%;
+    height:100%;
+
+}
+.gifdiv img{
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}

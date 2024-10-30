@@ -1,0 +1,465 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ @font-face {
+    font-family: 'Genericons';
+    src: url('genericons/genericons.css');
+}
+
+
+
+.error{
+  display: none;
+}
+
+ .modal-body{
+  padding: 0px !important;
+  
+}
+
+.largeimage{
+width: 100%;
+
+}
+
+.boxspace{
+  visibility: hidden;
+}
+
+.smallico{
+  width: 15%;
+  float: left;
+  padding: 2px;
+}
+
+.modal-footer{
+  border-top: none !important;
+  margin-top: 0px !important;
+}
+
+#cf7_controls span {
+  padding-right:2em;
+  cursor:pointer;
+}
+#cf7 {
+  position:relative;
+
+}
+#cf7 img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+#cf7 img.opaque {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+.close{
+position: absolute;
+z-index: 500;
+    float: right;
+    right: 5px;
+    font-size: 3em;
+    top: -0.1em;
+    opacity: 0.3;
+}
+
+#revsizetbl tr:nth-child(even){
+  background-color: rgba(158, 211, 230, 0.38);
+
+}
+#revsizetbl textarea{
+
+    border: none;
+    overflow: auto;
+    outline: none;
+    resize:none;
+
+    /*-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;*/
+ background-color: initial;
+ font-weight: bold;
+color: rgb(0, 139, 139);
+    width: 100%;
+
+
+}
+
+
+.editoff{
+visibility: hidden;
+}
+
+.editon{
+  visibility: visible;
+}
+
+#revsizetbl{
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.tblcontainer{
+width: 100%;
+}
+
+.genericon{
+font-size: 27px !important;
+}
+
+.menuitem{
+    display: inline-flex;
+    font-size: 20px !important;
+}
+
+.binlocked{
+  visibility: hidden;
+}
+.binunlocked{
+  visibility: visible;
+}
+
+.accordioncss{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.ui-state-highlight{
+    border: 1px dashed #0073aa;/*#e5e5e5*/
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  height: 50px;
+}
+.bottombar{
+    position: fixed !important;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px;
+    z-index: 10;
+    padding-right: 30px;
+    background-color: #23282d;
+    color: #ffffff;
+}
+.bottombar h2{
+    color: #ffffff !important;
+        font-weight: 100;
+    font-size: 15px;
+}
+.fixedsave{
+   position: fixed;
+    right: 0px;
+    bottom: 0px;
+    margin: 12px !important;
+  }
+#wpcontent{
+  padding-left: 0px !important;
+}
+
+.wppostbox{
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+  }
+.titleheaders{
+  
+  padding-left: 10px !important;
+}
+
+.pagetitleedit .genericon{
+  vertical-align: text-bottom !important;
+}
+.pagetitleedit{
+  font-size: 15px;
+  padding-left: 10px;
+}
+.pagetitles{
+  padding-left: 30px;
+}
+ .pluginform
+{
+      padding-bottom: 150px !important;
+
+}
+.hiddennames{
+  display: none;
+}
+
+.smallcolumn{
+  width: 5% !important;
+}
+.responcivebar{
+  position: fixed;
+    margin-top: -35px;
+    right: 0;
+}
+.responcivebar .button{
+      height: 36px;
+    padding: 5px;
+}
+
+.infobox{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.docsinfopar{
+padding: 10px;
+}
+.catagorybox{
+  text-align: center;
+  margin-top: 20px;
+}
+.mainpageacord{
+      min-width: 255px;
+    border: 2px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background-color: #ffffff;
+}
+.maincont{
+ background-color: #DCDCDC;
+padding-bottom: 20px;
+padding-top:10px;
+}
+
+.maintitle{
+color: #DCDCDC;
+text-align: center;
+    color: #949191;
+    margin:10px;
+
+}
+
+.accordarrow{
+  color: #000000;
+  float: right;
+  padding-right: 1%;
+  font-size: 20px !important;
+
+}
+
+  .ui-row-handle{
+    font-size: 16px !important;
+    color: rgba(35, 40, 45, 0.49);
+  }
+
+.menu-symbol p{font-size: 21px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+/*############################# settings ############################*/
+.settingstbl{
+  width: 100%;
+}
+.settingscont{
+  overflow-y:auto;
+  position: relative;
+}
+
+.bottombar h3{
+  color: #ffffff;
+}
+.textcolumn{
+  width: 18%;
+}
+.checkbox{
+
+    background: #FFFFFF;
+    box-shadow: 0 1px 5px #000000;
+    color: #23282D;
+    text-decoration: none;
+    /*text-shadow: 0 -1px 1px #23282D,1px 0 1px #23282D,0 1px 1px #23282D,-1px 0 1px #23282D;*/
+}
+.checkbox .genericon{
+  font-size: 19px !important;
+}
+.whitecheck{
+  color: #ffffff !important;
+
+}
+
+.wpgreypostbox{
+    border-bottom: 1px solid #0085ba;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #23282d;
+    color: #ffffff;
+  }
+
+.settingheader{
+  color: #ffffff;
+}
+
+.settingsarrow{
+  color: #0085ba;
+  padding-left: 10px;
+  font-size: 20px !important;
+
+}
+#accordion1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ 
+.addrowtbl{
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.helpercolumn{
+width: 25%;
+}
+.helperstyle{
+    background-color: #1F2225;
+    vertical-align: top;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+.inputcolumn{
+     width: 7%;
+    text-align: center;
+    padding-right: 10px;
+
+}
+.wp-picker-holder{
+
+}
+
+.svghtml{
+  width:300px;
+  height: 300px;
+}
+.ui-icon-inactive{
+  content: '>&9666;';
+}
+.ui-icon-active{
+  content: '>&x025BE;';
+}
+.svgloadcode{
+  display: none;
+}
+#loadtimer{
+      width: 60px;
+}
+
+.settingsbutton{
+    right: 0;
+    position: absolute;
+    margin: 10px !important;
+    margin-bottom: 20px !important;
+}
+
+  .CodeMirror { line-height: 1.3; overflow: scroll; margin-right:10px;}
+  .CodeMirror-linenumbers { 
+    padding: 0 8px;}
+ .CodeMirror-linenumber { 
+
+    background-color: #23282D;
+    padding-right: 10px;}
+  .CodeMirror-line {margin-left: 35px !important;}
+
+
+
+
+/*############################# Helper div ################################*/
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+#helperdiv{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 10px;
+    top: 40px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+
+#helperdiv p{ 
+padding: 0px;
+margin:0px;
+padding-left: 5px;
+padding-top: 3px;
+text-align: center;
+
+
+
+  }
+
+#helper-handle{
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 25px;
+    background-color: #F1F1F1;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    text-align: center;
+     color: #000000;
+}
+
+.helper-icons{
+
+  float: right;
+  padding-right: 1%;
+  font-size: 16px !important;
+}
+.helper-move{
+  padding-right: 1%;
+  font-size:  16px !important;
+  position: absolute;
+}
+.helper-quest{
+  float: left;
+  padding-left: 1%;
+  font-size: 13px !important;
+}
+
+.ui-resizable-e{
+    z-index: 90;
+    background-color: black;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    right: 0;
+}
+
+.helperonoff0{
+  visibility: hidden;
+}
+
+#helper-data{
+  
+  height:85%;
+   overflow-y: auto;
+   padding-right: 5px;
+   padding-left: 5px;
+}
